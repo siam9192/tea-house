@@ -16,3 +16,27 @@ align-items: center;
     font-size: 24px;
     color: black;
 }
+
+.contain div{
+   display: flex;
+   justify-content: center;
+    border-radius: 10px;
+    
+   
+    padding: 30px 20px;
+}
+
+.contain div img{
+    height: 300px;
+}
+
+.hei{
+    border-radius: 10px;
+opacity: 0.10000000149011612;
+background: var(--linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+}
+.hei{
+    border-radius: 10px;
+  
+   background-color: #b3500e;
+}
