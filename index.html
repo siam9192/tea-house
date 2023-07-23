@@ -11,7 +11,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="style.css">
+   
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'bg-orang':'(270deg, #F00 0%, #FF8938 100%)'
+          }
+        }
+      }
+    }
+  </script>
 </head>
+
 <body>
    <header>
 <section class="banner px-2 md:px-4 lg:px-64 py-16 flex-col-reverse flex md:flex-row lg:flex-row gap-5">
@@ -53,7 +67,7 @@
 
     </section>
     <section class=" mt-[120px] px-2 py-3 md:px-4 lg:px-0">
-      <div class="flex flex-col-reverse md:flex-col-reverse lg:flex-row gap-4">
+      <div class="flex flex-col-reverse md:flex-col-reverse lg:flex-row  gap-24">
       <div class="contain grid grid-cols-2 grid-rows-3 gap-5">
         <div class="bg-info"></div>
         <div class="row-span-2 bg-gray-300"><img src="images/tea-2.png" alt="" class=""></div>
@@ -62,12 +76,45 @@
       </div>
       <div class="space-y-4 lg:w-1/2 border border-gray-300 p-4"><h1 class="text-5xl font-semibold">Great Tea, Freshly <br>Presented</h1>
       <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
-    <div class="py-2"><h3 class="text-[18px] font-bold">Unique Taste</h3><p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p></div>
+    <div class="py-2"><h3 class="text-[18px] font-bold">Unique Taste</h3><p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+    <a href="">Show all</a></div>
   <div>
     <h3 class="text-[18px] font-bold">Premium Quality</h3>
     <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
   </div></div>
       </div>
+    </section>
+    <!-- meet our super client section -->
+    <section class="meet-our-client  flex gap-0 md:gap-6 lg:gap-8 items-center  lg:mx-0 flex-col-reverse md:flex-col-reverse lg:flex-row my-5">
+      <div class="space-y-6 lg:space-y-7  py-4 px-8 lg:py-20 lg:px-20 "><h2 class="text-6xl text-white">
+        Meet Our Super <br> Clients
+      </h2>
+    <p class="text-white text-[18px] pr-20">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+  <a href="" class="btn btn-primary">Show More</a></div>
+  <!-- opacity low -->
+  <div class="relative my-9 py-9 w-[90%] lg-w-full lg:py-20 lg:px-20">
+      <div class="opacity-50 flex flex-col gap-20">
+        <div class="bg-white rounded-lg relative"><img src="images/client.png" alt="" class="absolute top-[-20px] left-[-20px]">
+          <div class="px-6 py-8"><p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+          <p class="font-bold my-3">Ilham Yuda</p>
+          Businessman</div>
+        </div>
+        <div class="bg-white p-7 my-14 rounded-md">
+          <p class="">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+          <p class="font-bold my-3">Ilham Yuda</p>
+        </div>
+      </div>
+      <!-- opacity high -->
+    <div class="absolute top-[35%] left-[-10px] md:left-2 lg:left-[-30%] w-[90%] lg:w-[60%] ">
+        <div class="bg-white rounded-lg relative px-6 py-8 "><img src="images/client.png" alt="" class="absolute top-[-20px] left-[-20px]">
+          <div class=""><p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+          <p class="font-bold my-3">Ilham Yuda</p>
+          Businessman</div>
+        </div>
+        
+      </div>
+  </div>
+      
     </section>
    </main>
    <footer class="footer p-10 bg-neutral text-neutral-content">
